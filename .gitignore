@@ -18,3 +18,5 @@ clone_summary.json
 # SpecStory explanation file
 .specstory/.what-is-this.md
 .specstory/*
+
+.cursorindecingignore
