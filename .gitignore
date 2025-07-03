@@ -1,0 +1,20 @@
+# Local server
+local_server.py
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+clone_summary.json
+.vercel
+# SpecStory explanation file
+.specstory/.what-is-this.md
+./specstory/
