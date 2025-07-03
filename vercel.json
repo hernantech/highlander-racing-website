@@ -1,16 +1,13 @@
 {
   "version": 2,
-  "name": "highlander-racing",
   "builds": [
     {
       "src": "*.html",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
+    },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "**/*",
+      "use": "@vercel/static"
     }
   ],
   "headers": [
